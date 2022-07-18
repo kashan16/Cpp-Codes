@@ -22,7 +22,7 @@ class BFS
 				for(int i = 0 ; i < adj[front].size() ; i++)
 				{
 					int child = adj[front][i];
-					if(visited[child] = false)
+					if(visited[child] == false)
 					{
 						q.push(child);
 						visited[child] = true;
